@@ -21,10 +21,10 @@ func main() {
 
   // With if-elseif-else:
   // if-elseif-else structure is used when we have more than 2 conditions and we have to choose 1 from it as :
-  age:=70
+  age:=71
   if age>=18 && age<=70{
     fmt.Println("You can drive sir.")
-  }else if age<=70 {
+  }else if age>70 {
     fmt.Println("You are way too old why still want to drive.")
   }else{
     fmt.Println("You cannot drive Mr/Mr's teenager.")
