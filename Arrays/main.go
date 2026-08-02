@@ -5,11 +5,11 @@ import "fmt"
 // What is an array?
 // Array is numbered sequence of specific length.
 func main() {
-	var num[5]int // Initialized an array.
+	var num[5]int // declared an array.
 	var str[5]string 
 	var isBool[5]bool
 	var Float[5]float32
-	// What is stored when we will initialized an array?
+	// What is stored when we will declared an array?
 	fmt.Println(num) // Stores 0's
 	fmt.Println(str) // Stores empty strings or spaces.
 	fmt.Println(isBool) // Stores 'false'.

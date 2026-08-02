@@ -22,6 +22,8 @@ func main() {
 	}
 
 	// For loop with range:
-	 
+	for l:=range 10{
+		fmt.Println(l)
+	}
 }
 
