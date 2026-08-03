@@ -50,5 +50,10 @@ func main() {
 	// How to make 2d slices:
 	var slice3=[][]int{{1,2,3},{1,2,3}}
 	fmt.Println(slice3)
-
+	
+	// Range function with the slices:
+		number:=[]int{1,2,3}
+	for i,number:=range number{
+		fmt.Println(i,number)
+		}
 }

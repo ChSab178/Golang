@@ -37,4 +37,16 @@ func main() {
 	// How to compare a map:
 	// As we used slices in the slice to check does the first slice is equal to the other one. Same as we used package called maps.
 	fmt.Println(maps.Equal(a,b))
+
+	// Range function with Maps:
+	c:=map[string]string{"name":"Hammad","fname":"Asghar","Class":"Intermediate"}
+	for key,value:=range c{
+		fmt.Println(key," : ",value)
+	}
+
+	// Range function with Strings:
+	e:="Hammad Asghar"
+	for i,value:=range e{
+		fmt.Println(i+1," : ",string(value)) // It will returns the ASCII values that's why we convert the ASCII values to the string characters
+	}
 }

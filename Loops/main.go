@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	)
 
 // There is only for loop in go only.
 func main() {
@@ -25,5 +27,7 @@ func main() {
 	for l:=range 10{
 		fmt.Println(l)
 	}
+
+
 }
 
